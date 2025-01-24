@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardie's Grove Coffee Co.</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f1;
+            color: #4a3b2f;
+        }
+        header {
+            background-color: #735d3e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header img {
+            max-width: 150px;
+            cursor: pointer;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #4a3b2f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        footer {
+            background-color: #4a3b2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .newsletter {
+            margin-top: 30px;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 70%;
+            max-width: 400px;
+        }
+        .newsletter button {
+            background-color: #4a3b2f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path-to-your-logo.webp" alt="Gardie's Grove Coffee Co. Logo" onclick="location.href='index.html'">
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to Gardie's Grove Coffee Co.</h1>
+        <p>Your source for the freshest, most flavorful coffee inspired by nature.</p>
+        <button onclick="location.href='#shop'">Shop Now</button>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Gardie's Grove Coffee Co. was founded with the mission to bring the taste of nature into every cup. We source our beans ethically and roast them to perfection to deliver the best coffee experience.</p>
+    </section>
+
+    <section id="shop">
+        <h2>Shop</h2>
+        <p>Explore our selection of premium coffee beans and brewing accessories. <a href="#">Visit our shop</a>.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have questions or want to get in touch? Reach us through our social media or drop us an email.</p>
+        <div>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+        <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gardie's Grove Coffee Co. All rights reserved.</p>
+        <div>
+            <a href="#about">About Us</a> | <a href="#shop">Shop</a> | <a href="#contact">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
